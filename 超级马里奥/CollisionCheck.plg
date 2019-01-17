@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CollisionCheck - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\jone\AppData\Local\Temp\RSP7213.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/CollisionCheck.pdb" /debug /machine:I386 /out:"Debug/CollisionCheck.exe" /pdbtype:sept 
+".\Debug\CollisionCheck.obj"
+]
+Creating command line "link.exe @C:\Users\jone\AppData\Local\Temp\RSP7213.tmp"
+<h3>Output Window</h3>
+Linking...
+CollisionCheck.obj : error LNK2001: unresolved external symbol "int junmpposy" (?junmpposy@@3HA)
+LIBCD.lib(crt0.obj) : error LNK2001: unresolved external symbol _main
+Debug/CollisionCheck.exe : fatal error LNK1120: 2 unresolved externals
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+CollisionCheck.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

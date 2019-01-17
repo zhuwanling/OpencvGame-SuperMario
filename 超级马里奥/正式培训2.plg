@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 正式培训2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\jone\AppData\Local\Temp\RSPA603.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cxcore.lib cv.lib ml.lib cvaux.lib highgui.lib cvcam.lib /nologo /subsystem:console /incremental:no /pdb:"Release/正式培训2.pdb" /machine:I386 /out:"Release/正式培训2.exe" 
+".\Release\CollisionCheck.obj"
+".\Release\Enemy.obj"
+".\Release\Floor.obj"
+".\Release\GameUI.obj"
+".\Release\Manager.obj"
+".\Release\myplayer.obj"
+".\Release\Obstacle.obj"
+".\Release\StdAfx.obj"
+".\Release\正式培训2.obj"
+]
+Creating command line "link.exe @C:\Users\jone\AppData\Local\Temp\RSPA603.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating temporary file "C:\Users\jone\AppData\Local\Temp\RSPA921.tmp" with contents
+[
+/nologo /o"Release/正式培训2.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\CollisionCheck.sbr"
+".\Release\Enemy.sbr"
+".\Release\Floor.sbr"
+".\Release\GameUI.sbr"
+".\Release\Manager.sbr"
+".\Release\myplayer.sbr"
+".\Release\Obstacle.sbr"
+".\Release\正式培训2.sbr"]
+Creating command line "bscmake.exe @C:\Users\jone\AppData\Local\Temp\RSPA921.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+正式培训2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
